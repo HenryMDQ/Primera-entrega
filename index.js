@@ -39,8 +39,8 @@ app.post('/', (req, res) => {
             port: 465,
             secure: true,
             auth:{
-                user:"thingol2000@gmail.com",
-                pass: "nlnigbbygdfvfurl",
+                user:"************",
+                pass: "**********",
             }
         });
         
@@ -49,7 +49,7 @@ app.post('/', (req, res) => {
         // mesnaje a cliente 
 
         let message = await transporter.sendMail({
-            from: "thingol2000@gmail.com",
+            from: "*************",
             to: `${email}`, 
             subject: "Gracias por contactar a Deitres",
             html: `${email} Muchas gracias por su mensaje. En breve una persona de Deitres lo contactará.`
