@@ -9,7 +9,7 @@ header{
   flex-direction:row;
   justify-content:space-between ;
   background-size: cover;
-  background-image: url("../../pages/images/Fondo_header2.jpg"); /* Imagen de fondo del encabezado*/
+  background-image: url("/images/Fondo_header2.jpg"); /* Imagen de fondo del encabezado*/
 }
 
 /* el logo lo pongo al inicio*/
